@@ -2,7 +2,7 @@
 nombre = "yerko"
 apellido = "flores"
 
-#imprimiendo variables en un print con comas
+#imprimiendo variables
 print(f"hola mi nombre es {nombre} y mi apellido es {apellido}")
 
 #07 uso del input / mutabilidad
