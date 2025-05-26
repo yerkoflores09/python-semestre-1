@@ -35,4 +35,20 @@ print(asigantura[0:6])
 print(descripcion.split())
 
 # arreglo numerico
-v = [1, 2, 3, 4, 5]
+v = [1, 2, 3, 4, 5] #inicializando un arreglo numerico
+print(v[0]) #el valor de cero marca la posicion de l primer elemento (indice)
+
+#funcion LEN (contar cantidad de caracteres)
+print('la palabra', carrera, len(carrera))
+
+#valores BOOLEANOS
+interruptor = True
+ampolleta = False
+#funcion type permite saber el tipo de dato que se utiliza
+print(type(interruptor))
+
+#comparativa de valores logicos
+print(1<10)
+print(100<=20)
+print(100==100)
+
