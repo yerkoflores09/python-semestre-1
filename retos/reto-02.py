@@ -6,14 +6,15 @@ inventario = {
 }
 
 #precios unicos
-
+precios_platano = set(inventario['platano'])
 
 #lista tipos_frutas
-tipos_frutas = list(['manzana', 'platano', 'frutilla'])
+tipos_frutas = list(inventario.keys())
 
 #calculo del promedio
-precios_platano = (2000 + 2000 + 4000) / 3
+promedio_platano = sum(precios_platano) / len(precios_platano)
 
 print(inventario)
+
 print(tipos_frutas)
-print(precios_platano)
+print(promedio_platano)
