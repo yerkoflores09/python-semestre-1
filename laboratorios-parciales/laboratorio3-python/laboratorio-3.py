@@ -25,7 +25,7 @@ try:
     if 10 <= 'clima' <= 15:
         print('la temperatura es templada')
     else:
-        print('ola k ase')
+        print('')
 except:
     codigo_postal[5700000]['temperatura'] = 'desconocida'
 
